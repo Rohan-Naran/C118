@@ -1,0 +1,42 @@
+h1{
+    font-family: 'Nabla', system-ui;
+    font-size: 60px;
+    margin-top: 0%;
+}
+#show-sketch{
+    font-family: 'Pacifico', cursive;
+    margin-left: 92%;
+    color: goldenrod;
+    margin-top:0%;
+}
+#label{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: goldenrod;
+    font-weight:bolder;
+    border: 5px solid goldenrod;
+}
+#confidence{
+    font-family:'Times New Roman', Times, serif;
+    color: goldenrod;
+    font-size: 30px;
+    font-weight:bolder;
+    border: 5px solid goldenrod;
+}
+#clear-canvas{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+body{
+    background: url('https://muralsyourway.vtexassets.com/arquivos/ids/231331/Starry-Starry-Mural-Wallpaper.jpg?v=638164882132900000');
+    background-size:cover;
+}
+canvas{
+    background-color: white;
+    border: 5px solid goldenrod;
+    border-radius:15%;
+}
+@keyframes example {
+    from {box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+}
